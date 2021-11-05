@@ -1,0 +1,10 @@
+{
+    "name": "petrik/halloween",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Petrik14S\\PoosDaniel\\Halloween\\": "src/"
+        }
+    },
+    "require": {}
+}
