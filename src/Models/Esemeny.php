@@ -22,11 +22,11 @@ class Esemeny{
     }
     public function getSzervezo()
     {
-        return $this->szervezo;
+        return $this->szervezo->getName();
     }
     public function getResztvevok()
     {
-        return $this->resztvevok;
+        foreach ($this->resztvevok as $resz) return $resz->getName();
     }
     public function getIdo()
     {
